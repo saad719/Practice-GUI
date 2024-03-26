@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_heading">28sp</dimen>
+    <dimen name="radio">20sp</dimen>
+    <dimen name="supbtn">20sp</dimen>
+    <dimen name="logindir">18sp</dimen>
+    <dimen name="tabp">24sp</dimen>
+    <dimen name="username">20sp</dimen>
+    <dimen name="bio">12sp</dimen>
+</resources>

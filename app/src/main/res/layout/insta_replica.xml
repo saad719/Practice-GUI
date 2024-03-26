@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/userlayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="360dp"
+            android:src="@drawable/settings"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/username"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/username"
+            />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ronaldoicon"
+            android:background="@drawable/shapes"
+
+            />
+        <TextView
+            android:id="@+id/followers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Followers"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="195dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Following"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="280dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:id="@+id/posts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posts"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="140dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200"
+            android:textSize="16sp"
+
+            android:layout_marginTop= "10dp"
+
+            android:layout_marginLeft="145dp"
+
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="285M"
+            android:textSize="16sp"
+
+            android:layout_marginTop= "10dp"
+
+            android:layout_marginLeft="210dp"
+
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="16sp"
+
+            android:layout_marginTop= "10dp"
+
+            android:layout_marginLeft="305dp"
+
+
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Edit Profile  "
+            android:layout_below="@+id/followers"
+            android:layout_marginLeft="180dp"
+            android:backgroundTint="@color/edit"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fullname"
+            android:layout_marginTop="110dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bio"
+            android:layout_marginTop="130dp"
+            android:textSize="@dimen/bio"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/white"
+
+
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tab_layout_border"
+            android:padding="0dp">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/white"
+
+                >
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:icon="@drawable/collage_icon"
+
+                    />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:icon="@drawable/reels_icon" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:icon="@drawable/igtv_icon" />
+
+            </com.google.android.material.tabs.TabLayout>
+
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+    <!-- activity_main.xml -->
+    <GridLayout
+
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="5dp"
+            android:layout_height="2dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ronaldo1" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ronaldo2" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ronaldo3" />
+
+        <ImageView
+            android:id="@+id/image9"
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ronaldo9" />
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ronaldo5" />
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ronaldo4" />
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ronaldo6" />
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ronaldo7" />
+        <ImageView
+            android:id="@+id/image8"
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ronaldo8" />
+    </GridLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation_menu" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <corners android:radius="16dp" /> <!-- Adjust the radius to change roundness -->
+        <solid android:color="@android:color/transparent" /> <!-- Transparent background -->
+    </shape>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_grey">#2F3642</color>
+    <color name="yellow_heading">#FFC107</color>
+    <color name="boxfill">#8E8260</color>
+    <color name="btn">#F8C839</color>
+    <color name="logindir">#F6EBC9</color>
+    <color name="login">#2196F3</color>
+    <color name="userlayout">#DDE3E8</color>
+    <color name="edit">#B3B9BD</color>
+</resources>

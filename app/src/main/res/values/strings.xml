@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+    <string name="logo_name">Chatify</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="repass">Retype Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="signup">Sign Up</string>
+    <string name="logindir">Already have an account?</string>
+    <string name="login">Login Now</string>
+    <string name="itabs">Icon And Text Tabs</string>
+    <string name="tab1">One</string>
+    <string name="tab2">Two</string>
+    <string name="tab3">Three</string>
+    <string name="frag1">Tab One</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">ronaldo</string>
+    <string name="fullname">Cristiano Ronaldo</string>
+    <string name="bio">Portugal | Manchester United</string>
+
+
+</resources>
